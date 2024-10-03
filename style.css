@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins",sans-serif;
+}
+
+.nav1{
+
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+.nav1 img{
+    width: 230px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: #303030;
+    font-size: 18px;
+    transition: all 0.3s ease 0s;
+}
+.nav1 a:hover{
+    color: #0088a9;
+}
+.nav1 i{
+    font-size: 20px;
+    margin-right: 12px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav1 i:hover{
+    color: #0088a9;
+}
+
+.hero {
+        display: flex;
+        margin-top: 10px;
+        padding: 0 60px;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+}
+
+img{
+    max-height: 400px;
+}
+
+.hero .left-section .top h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.hero .left-section .top p{
+    color: #606060;
+    margin-bottom: 10px;
+}
+.hero .left-section .top h4{
+    color: #606060;
+}
+
+button,.github {
+    background: #dedede;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #606060;
+    transition: all 0.3s ease;
+}
+button,.github:hover{
+    color: white;
+    background: black;
+}
+
+.icons i{
+    gap: 200px;
+    margin-bottom: 10px;
+    opacity: 0.75;
+}
+.icons i:hover{
+    opacity: 1;
+}
+h1{
+
+    text-align: center;
+}
